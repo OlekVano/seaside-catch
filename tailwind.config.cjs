@@ -11,7 +11,8 @@ module.exports = {
       'bg-tertiary': '#2A4EE5',
       'bg-quaternary': '#1E90FC',
       'bg-quinary': '#58CCED',
-      'bg-complementary': '#ebb2b1'
+      'bg-complementary': '#ebb2b1',
+      'text-primary': '#ffffff'
     },
     extend: {},
   },
