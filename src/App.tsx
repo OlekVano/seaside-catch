@@ -5,6 +5,7 @@ import LoadingScreen from './components/LoadingScreen'
 import { ContentContext } from './content-context'
 import { Content } from './types'
 import useContentful from './useContentful'
+import AboutSection from './components/AboutSection'
 
 function App() {
   const [content, setContent] = useState<Content>()
@@ -21,8 +22,9 @@ function App() {
         }}>
           <LandingSection />
           <div className='bg-bg-primary pt-40 grid place-items-center'>
-            <div className='max-w-7xl'>
+            <div className='max-w-7xl flex flex-col gap-40'>
               <WelcomeSection />
+              <AboutSection />
             </div>
           </div>
         </ContentContext.Provider>
