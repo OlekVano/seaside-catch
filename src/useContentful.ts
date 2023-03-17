@@ -32,7 +32,7 @@ export default function useContentful() {
 
   function sanitizeEntry(entry: any) {
     if (entry[1].fields) {
-      entry[1] = entry[1].fields.file.url
+      entry[1] = `https:${entry[1].fields.file.url}`
     }
     return entry
   }
