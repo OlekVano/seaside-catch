@@ -6,6 +6,7 @@ import { ContentContext } from './content-context'
 import { Content } from './types'
 import useContentful from './useContentful'
 import AboutSection from './components/AboutSection'
+import FindUsSection from './components/FIndUsSection'
 
 function App() {
   const [content, setContent] = useState<Content>()
@@ -25,6 +26,7 @@ function App() {
             <div className='max-w-7xl flex flex-col gap-40'>
               <WelcomeSection />
               <AboutSection />
+              <FindUsSection />
             </div>
           </div>
         </ContentContext.Provider>
