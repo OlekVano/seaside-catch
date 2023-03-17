@@ -1,5 +1,6 @@
 import { useContext } from 'react'
 import { ContentContext } from '../../content-context'
+import Button from '../Button'
 
 export default function EventsSection() {
   const { content } = useContext(ContentContext)
@@ -36,6 +37,12 @@ export default function EventsSection() {
             </div>
           </div>
         </div>
+      </div>
+      <div className='max-w-3xl text-small text-center mt-10 p-5'>
+        {content!.homepage.eventsSectionText}
+      </div>
+      <div className='mt-10'>
+        <Button text='Contact Us' />
       </div>
     </div>
   )
