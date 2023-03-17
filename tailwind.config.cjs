@@ -12,19 +12,20 @@ module.exports = {
       'bg-quaternary': '#1E90FC',
       'bg-quinary': '#58CCED',
       'bg-complementary': '#ebb2b1',
-      'text-primary': '#ffffff'
+      'text-primary': '#ffffff',
+      'text-secondary': '#000000'
     },
     fontSize: {
-      'body-small': '20px',
+      'small': '20px',
       'subheading': '25px',
       'body': '32px',
       'heading': '35px',
       'huge': '60px'
     },
     fontWeight: {
-      'md': '500',
-      'lg': '700',
-      'xl': '900'
+      semibold: '600',
+      bold: '700',
+      black: '900'
     },
     extend: {},
   },
