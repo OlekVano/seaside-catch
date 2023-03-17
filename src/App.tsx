@@ -8,6 +8,7 @@ import useContentful from './useContentful'
 import AboutSection from './components/AboutSection'
 import FindUsSection from './components/FIndUsSection'
 import MenuSection from './components/MenuSection'
+import EventsSection from './components/EventsSection'
 
 function App() {
   const [content, setContent] = useState<Content>()
@@ -29,6 +30,7 @@ function App() {
               <AboutSection />
               <FindUsSection />
               <MenuSection />
+              <EventsSection />
             </div>
           </div>
         </ContentContext.Provider>
