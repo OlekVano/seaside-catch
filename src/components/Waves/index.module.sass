@@ -1,0 +1,40 @@
+.waves 
+  position: relative
+  width: 100%
+  height: 20vw
+  max-height: 20vh
+
+
+.waveOne,
+.waveTwo,
+.waveThree,
+.waveFour 
+  animation: move-forever 25s cubic-bezier(.55,.5,.45,.5) infinite
+
+
+.waveOne 
+  animation-delay: -2s
+  animation-duration: 7s
+
+
+.waveTwo 
+  animation-delay: -3s
+  animation-duration: 10s
+
+
+.waveThree 
+  animation-delay: -4s
+  animation-duration: 13s
+
+
+.waveFour 
+  animation-delay: -5s
+  animation-duration: 20s
+
+
+@keyframes move-forever 
+  0% 
+   transform: translate3d(-90px,0,0)
+  
+  100%  
+    transform: translate3d(85px,0,0)
