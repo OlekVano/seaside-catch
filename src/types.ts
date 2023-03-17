@@ -1,5 +1,9 @@
 // Used https://jvilk.com/MakeTypes/ to make easy types
 
+export interface ContentContextType {
+  content?: Content,
+}
+
 export interface Content {
   homepage: Homepage;
   menu: Menu;
