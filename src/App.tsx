@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import WelcomeSection from './components/WelcomeSection'
 import LandingSection from './components/LandingSection'
 import LoadingScreen from './components/LoadingScreen'
 import { ContentContext } from './content-context'
@@ -19,6 +20,11 @@ function App() {
           content: content
         }}>
           <LandingSection />
+          <div className='bg-bg-primary pt-40 grid place-items-center'>
+            <div className='max-w-7xl'>
+              <WelcomeSection />
+            </div>
+          </div>
         </ContentContext.Provider>
       }
     </div>
