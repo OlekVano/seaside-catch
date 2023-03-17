@@ -1,5 +1,6 @@
 import { useContext } from 'react'
 import { ContentContext } from '../../content-context'
+import Birds from '../Birds'
 import Button from '../Button'
 import Waves from '../Waves'
 
@@ -8,6 +9,7 @@ export default function LandingSection() {
 
   return (
     <div className='relative min-h-screen'>
+      <Birds />
       <div className='h-full w-full absolute grid place-items-center bg-gradient-to-b from-bg-quaternary to-bg-complementary'>
         <div className='h-full z-10 max-w-7xl'>
           <div className='h-full w-full flex p-14'>
