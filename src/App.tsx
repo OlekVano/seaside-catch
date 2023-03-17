@@ -1,15 +1,26 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import LandingSection from './components/LandingSection'
-import Waves from './components/Waves'
+import useContentful from './useContentful'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [content, setContent] = useState()
+  const { getContent } = useContentful()
+
+  useEffect(fetchContent, [])
 
   return (
     <div className='App'>
       <LandingSection />
     </div>
   )
+
+  // ********************************
+
+  function fetchContent() {
+    getContent().then(function afterFetchingContent(content) {
+      console.log(content)
+    })
+  }
 }
 
 export default App
