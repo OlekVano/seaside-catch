@@ -12,6 +12,7 @@ import EventsSection from './components/EventsSection'
 import ChooseUsSection from './components/ChooseUsSection'
 import NewsletterSection from './components/NewsletterSection'
 import Footer from './components/Footer'
+import Bubbles from './components/Bubbles'
 
 function App() {
   const [content, setContent] = useState<Content>()
@@ -27,8 +28,11 @@ function App() {
           content: content
         }}>
           <LandingSection />
-          <div className='bg-bg-primary pt-40 grid place-items-center gap-40'>
-            <div className='max-w-7xl flex flex-col gap-40'>
+          <div className='bg-bg-primary grid place-items-center relative'>
+            <div className='absolute h-full w-full top-0 left-0'>
+              <Bubbles />
+            </div>
+            <div className='max-w-7xl flex flex-col py-40 gap-40'>
               <WelcomeSection />
               <AboutSection />
               <FindUsSection />
@@ -37,8 +41,8 @@ function App() {
               <ChooseUsSection />
               <NewsletterSection />
             </div>
-            <Footer />
           </div>
+          <Footer />
         </ContentContext.Provider>
       }
     </div>
