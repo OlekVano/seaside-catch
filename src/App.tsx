@@ -10,6 +10,7 @@ import FindUsSection from './components/FIndUsSection'
 import MenuSection from './components/MenuSection'
 import EventsSection from './components/EventsSection'
 import ChooseUsSection from './components/ChooseUsSection'
+import NewsletterSection from './components/NewsletterSection'
 
 function App() {
   const [content, setContent] = useState<Content>()
@@ -33,6 +34,7 @@ function App() {
               <MenuSection />
               <EventsSection />
               <ChooseUsSection />
+              <NewsletterSection />
             </div>
           </div>
         </ContentContext.Provider>

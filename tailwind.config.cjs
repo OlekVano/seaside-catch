@@ -13,7 +13,8 @@ module.exports = {
       'bg-quinary': '#58CCED',
       'bg-complementary': '#ebb2b1',
       'text-primary': '#ffffff',
-      'text-secondary': '#000000'
+      'text-secondary': '#000000',
+      'text-tertiary': '#808080'
     },
     fontSize: {
       'small': '20px',
