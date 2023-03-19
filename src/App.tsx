@@ -32,7 +32,7 @@ function App() {
             <div className='absolute h-full w-full top-0 left-0'>
               <Bubbles />
             </div>
-            <div className='max-w-7xl flex flex-col py-40 gap-40'>
+            <div className='max-w-7xl flex flex-col py-40 gap-40 z-10'>
               <WelcomeSection />
               <AboutSection />
               <FindUsSection />

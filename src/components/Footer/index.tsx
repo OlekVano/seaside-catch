@@ -10,7 +10,7 @@ export default function Footer() {
   const { content } = useContext(ContentContext)
 
   return (
-    <div className='bg-bg-secondary w-full grid place-items-center py-20 text-small font-semibold z-10'>
+    <div className='bg-bg-secondary w-full grid place-items-center py-20 text-small font-semibold relative z-10'>
       <div className='max-w-7xl flex justify-between'>
         <div className=' max-w-[33.333%]'>
           <Logo />
