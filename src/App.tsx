@@ -9,6 +9,7 @@ import AboutSection from './components/AboutSection'
 import FindUsSection from './components/FIndUsSection'
 import MenuSection from './components/MenuSection'
 import EventsSection from './components/EventsSection'
+import ChooseUsSection from './components/ChooseUsSection'
 
 function App() {
   const [content, setContent] = useState<Content>()
@@ -31,6 +32,7 @@ function App() {
               <FindUsSection />
               <MenuSection />
               <EventsSection />
+              <ChooseUsSection />
             </div>
           </div>
         </ContentContext.Provider>
