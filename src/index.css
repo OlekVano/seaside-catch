@@ -4,6 +4,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .stained-glass {
+    @apply bg-bg-secondary bg-opacity-50 backdrop-blur-sm
+  }
+}
+
 html {
   overflow-x: hidden;
 }

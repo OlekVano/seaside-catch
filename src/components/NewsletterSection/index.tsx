@@ -9,7 +9,7 @@ export default function NewsletterSection() {
       <div className='uppercase text-huge font-black text-center'>
         {content!.homepage.newsletterSectionTitle}
       </div>
-      <div className='flex gap-10 mt-32 items-center justify-between bg-bg-secondary py-10 px-20 rounded-3xl'>
+      <div className='flex gap-10 mt-32 items-center justify-between stained-glass py-10 px-20 rounded-3xl'>
         <div className='w-2/5'>
           <div className='uppercase text-heading font-bold text-center'>
             {content!.homepage.newsletterSectionSubtitle}

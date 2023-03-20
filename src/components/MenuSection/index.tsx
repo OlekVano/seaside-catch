@@ -10,7 +10,7 @@ export default function MenuSection() {
         {content!.menu.title}
       </div>
       <div className='flex justify-center mt-32 flex-wrap w-full gap-y-14 gap-x-[80px]'>
-        <div className='w-[600px] bg-bg-secondary rounded-3xl flex p-5 gap-5 cursor-pointer transition hover:scale-110'>
+        <div className='w-[600px] stained-glass rounded-3xl flex p-5 gap-5 cursor-pointer transition hover:scale-110'>
           <div className='w-1/3 h-full'>
             <img className='' src={content!.menu.card1Image} />
           </div>
@@ -26,7 +26,7 @@ export default function MenuSection() {
             </div>
           </div>
         </div>
-        <div className='w-[600px] bg-bg-secondary rounded-3xl flex p-5 gap-5 cursor-pointer transition hover:scale-110'>
+        <div className='w-[600px] stained-glass rounded-3xl flex p-5 gap-5 cursor-pointer transition hover:scale-110'>
           <div className='w-1/3 h-full'>
             <img className='' src={content!.menu.card1Image} />
           </div>

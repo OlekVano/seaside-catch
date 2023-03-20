@@ -10,7 +10,7 @@ export default function AboutSection() {
       <div className='uppercase text-huge font-black text-center'>
         {content!.homepage.aboutSectionTitle}
       </div>
-      <div className='bg-bg-secondary px-10 py-20 bg-opacity-50 backdrop-blur-lg rounded-3xl flex gap-16 mt-32 items-center'>
+      <div className='px-10 py-20 stained-glass rounded-3xl flex gap-16 mt-32 items-center'>
         <div className='font-semibold text-body w-1/2 p-4 text-center'>
           {content!.homepage.aboutSectionText}
         </div>
