@@ -7,7 +7,7 @@ export default function EventsSection() {
 
   return (
     <div className='flex flex-col items-center'>
-      <div className='uppercase text-huge font-black text-center'>
+      <div className='uppercase text-huge font-black text-center drop-shadow-md'>
         {content!.homepage.eventsSectionTitle}
       </div>
       <div className='flex justify-center mt-32 flex-wrap w-full gap-y-14 gap-x-[80px]'>
@@ -16,10 +16,10 @@ export default function EventsSection() {
             <img className='object-cover w-full h-full' src={content!.homepage.eventsSectionCard1Image} />
           </div>
           <div className='flex-1 p-5'>
-            <div className='text-subheading text-center'>
+            <div className='text-subheading text-center font-bold drop-shadow-md'>
               {content!.homepage.eventsSectionCard1Title}
             </div>
-            <div className='text-small mt-5'>
+            <div className='text-small mt-5 font-semibold drop-shadow-md'>
             {content!.homepage.eventsSectionCard1Text}
             </div>
           </div>
@@ -29,16 +29,16 @@ export default function EventsSection() {
             <img className='object-cover w-full h-full' src={content!.homepage.eventsSectionCard2Image} />
           </div>
           <div className='flex-1 p-5'>
-            <div className='text-subheading text-center'>
+            <div className='text-subheading text-center font-bold drop-shadow-md'>
               {content!.homepage.eventsSectionCard2Title}
             </div>
-            <div className='text-small mt-5'>
+            <div className='text-small mt-5 font-semibold drop-shadow-md'>
             {content!.homepage.eventsSectionCard2Text}
             </div>
           </div>
         </div>
       </div>
-      <div className='max-w-3xl text-small text-center mt-10 p-5'>
+      <div className='max-w-3xl text-small text-center mt-10 p-5 font-semibold drop-shadow-md'>
         {content!.homepage.eventsSectionText}
       </div>
       <div className='mt-10'>

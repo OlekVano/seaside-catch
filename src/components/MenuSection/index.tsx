@@ -6,7 +6,7 @@ export default function MenuSection() {
 
   return (
     <div className='flex flex-col items-center'>
-      <div className='uppercase text-huge font-black text-center'>
+      <div className='uppercase text-huge font-black text-center drop-shadow-md'>
         {content!.menu.title}
       </div>
       <div className='flex justify-center mt-32 flex-wrap w-full gap-y-14 gap-x-[80px]'>
@@ -15,13 +15,13 @@ export default function MenuSection() {
             <img className='' src={content!.menu.card1Image} />
           </div>
           <div className='flex-1 flex flex-col gap-5'>
-            <div className='text-subheading text-center'>
+            <div className='text-subheading font-bold drop-shadow-md text-center'>
               {content!.menu.card1Title}
             </div>
-            <div className='text-small'>
+            <div className='text-small font-semibold drop-shadow-md'>
               {content!.menu.card1Text}
             </div>
-            <div className='text-heading font-bold text-right'>
+            <div className='text-heading font-bold text-right drop-shadow-md'>
               {content!.menu.card1Price}
             </div>
           </div>
@@ -31,13 +31,13 @@ export default function MenuSection() {
             <img className='' src={content!.menu.card1Image} />
           </div>
           <div className='flex-1 flex flex-col gap-5'>
-            <div className='text-subheading text-center'>
+            <div className='text-subheading font-bold drop-shadow-md text-center'>
               {content!.menu.card1Title}
             </div>
-            <div className='text-small'>
+            <div className='text-small font-semibold drop-shadow-md'>
               {content!.menu.card1Text}
             </div>
-            <div className='text-heading font-bold text-right'>
+            <div className='text-heading font-bold text-right drop-shadow-md'>
               {content!.menu.card1Price}
             </div>
           </div>

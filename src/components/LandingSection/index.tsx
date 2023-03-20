@@ -14,10 +14,10 @@ export default function LandingSection() {
         <div className='h-full z-10 max-w-7xl'>
           <div className='h-full w-full flex p-14'>
             <div className='w-1/2 flex flex-col justify-center gap-10'>
-              <div className='text-huge uppercase font-black'>
+              <div className='text-huge uppercase font-black drop-shadow-md'>
                 {content!.homepage.landingSectionTitle}
               </div>
-              <div className='text-body font-semibold'>
+              <div className='text-body font-semibold drop-shadow-md'>
                 {content!.homepage.landingSectionText}
               </div>
               <Button text='Book A Table' />

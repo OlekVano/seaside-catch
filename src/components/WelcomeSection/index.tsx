@@ -7,12 +7,12 @@ export default function WelcomeSection() {
 
   return (
     <div>
-      <div className='uppercase text-huge font-black text-center'>
+      <div className='uppercase text-huge font-black text-center drop-shadow-md'>
         {content!.homepage.welcomeSectionTitle}
       </div>
       <div className='px-10 py-20 stained-glass rounded-3xl flex gap-16 mt-32'>
         <div className='w-2/5 flex flex-col items-center gap-16'>
-          <div className='text-body font-semibold text-center'>
+          <div className='text-body font-semibold text-center drop-shadow-md'>
             {content!.homepage.welcomeSectionText}
           </div>
           <Button text='Explore Menu' />
