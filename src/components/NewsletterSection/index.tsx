@@ -18,7 +18,7 @@ export default function NewsletterSection() {
             {content!.homepage.newsletterSectionText}
           </div>
         </div>
-        <div className='w-2/5 flex items-stretch overflow-x-hidden rounded-lg'>
+        <div className='w-2/5 flex items-stretch overflow-x-hidden rounded-lg shadow-md'>
           <input className='text-small p-4 px-10 flex-1 outline-none border-none text-text-tertiary font-semibold drop-shadow-md' type='email' placeholder='Your Email Address' />
           <div role='button' className='text-subheading bg-bg-tertiary px-10 cursor-pointer grid place-items-center group font-bold drop-shadow-md'>
             <div className='transition group-hover:-translate-y-1'>Join</div>
