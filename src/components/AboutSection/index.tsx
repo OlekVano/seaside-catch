@@ -15,7 +15,7 @@ export default function AboutSection() {
           {content!.homepage.aboutSectionText}
         </div>
         <div className='flex-1'>
-          <img className='rounded-3xl cursor-pointer transition hover:scale-110 hover:saturate-150' src={content!.homepage.aboutSectionImage} />
+          <img className='rounded-3xl cursor-pointer transition hover:scale-110' src={content!.homepage.aboutSectionImage} />
         </div>
       </div>
     </div>
