@@ -6,7 +6,7 @@
 
 @layer components {
   .stained-glass {
-    @apply bg-bg-secondary bg-opacity-50 backdrop-blur-sm
+    @apply bg-bg-secondary bg-opacity-50 backdrop-blur-sm shadow-lg
   }
 }
 
