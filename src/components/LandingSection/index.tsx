@@ -23,11 +23,11 @@ export default function LandingSection() {
               <Button text='Book A Table' />
             </div>
             <div className='w-1/2 grid place-items-center'>
-              <div className='w-full aspect-square relative grid place-items-center cursor-pointer transition hover:scale-110'>
+              <div className='group w-full aspect-square relative grid place-items-center cursor-pointer transition hover:scale-110'>
                 <div className='absolute w-full aspect-square grid place-items-center'>
                   <div className='bg-bg-primary rounded-full w-3/4 aspect-square'></div>
                 </div>
-                <div className='absolute'>
+                <div className='absolute transition duration-500 group-hover:scale-110'>
                   <img src={content!.homepage.landingSectionImage2} />
                 </div>
                 <div className='absolute aspect-square grid place-items-center'>
