@@ -18,10 +18,10 @@ export default function WelcomeSection() {
           <Button text='Explore Menu' />
         </div>
         <div className='flex-1 flex flex-wrap justify-between align-sub'>
-          <img className='object-cover h-[45%] rounded-3xl transition cursor-pointer hover:scale-110 hover:saturate-150' src={content!.homepage.welcomeSectionImage1} width='40%' />
-          <img className='object-cover h-[45%] rounded-3xl transition cursor-pointer hover:scale-110 hover:saturate-150' src={content!.homepage.welcomeSectionImage2} width='55%'/>
-          <img className='object-cover h-[45%] rounded-3xl transition cursor-pointer hover:scale-110 hover:saturate-150' src={content!.homepage.welcomeSectionImage3} width='55%'/>
-          <img className='object-cover h-[45%] rounded-3xl transition cursor-pointer hover:scale-110 hover:saturate-150' src={content!.homepage.welcomeSectionImage4} width='40%'/>
+          <img className='shadow-md object-cover h-[45%] rounded-3xl transition cursor-pointer hover:scale-110' src={content!.homepage.welcomeSectionImage1} width='40%' />
+          <img className='shadow-md object-cover h-[45%] rounded-3xl transition cursor-pointer hover:scale-110' src={content!.homepage.welcomeSectionImage2} width='55%'/>
+          <img className='shadow-md object-cover h-[45%] rounded-3xl transition cursor-pointer hover:scale-110' src={content!.homepage.welcomeSectionImage3} width='55%'/>
+          <img className='shadow-md object-cover h-[45%] rounded-3xl transition cursor-pointer hover:scale-110' src={content!.homepage.welcomeSectionImage4} width='40%'/>
         </div>
       </div>
     </div>
