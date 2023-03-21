@@ -31,7 +31,8 @@ module.exports = {
     extend: {
       screens: {
         'xs': '560px',
-        '2xs': '480px'
+        '2xs': '480px',
+        '3xs': '400px'
       }
     },
   },
