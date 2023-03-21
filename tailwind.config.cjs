@@ -21,7 +21,7 @@ module.exports = {
       'subheading': '25px', 'subheading-medium-screen': '22px',
       'body': '32px', 'body-medium-screen': '25px',
       'heading': '35px', 'heading-medium-screen': '30px',
-      'huge': '60px', 'huge-medium-screen': '45px'
+      'huge': '60px', 'huge-medium-screen': '45px', 'huge-small-screen': '37.5px'
     },
     fontWeight: {
       semibold: '600',
