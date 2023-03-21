@@ -10,8 +10,8 @@ export default function LandingSection() {
   return (
     <div className='relative min-h-screen flex flex-col h-fit'>
       <Birds />
-      <div className='h-full w-full grid place-items-center bg-gradient-to-b from-bg-quaternary to-bg-complementary flex-1'>
-        <div className='h-full z-10 max-w-7xl'>
+      <div className='overflow-x-hidden h-full w-full grid place-items-center bg-gradient-to-b from-bg-quaternary to-bg-complementary flex-1'>
+        <div className='h-full z-10 max-w-7xl overflow-x-hidden'>
           <div className='h-full w-full flex p-8'>
             <div className='flex-1 flex flex-col justify-center gap-10'>
               <div className='huge-text max-lg:text-center'>
