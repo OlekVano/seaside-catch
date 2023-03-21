@@ -12,12 +12,12 @@ export default function LandingSection() {
       <Birds />
       <div className='h-full w-full grid place-items-center bg-gradient-to-b from-bg-quaternary to-bg-complementary flex-1'>
         <div className='h-full z-10 max-w-7xl'>
-          <div className='h-full w-full flex p-14'>
+          <div className='h-full w-full flex p-8'>
             <div className='flex-1 flex flex-col justify-center gap-10'>
-              <div className='text-huge uppercase font-black drop-shadow-md max-lg:text-center'>
+              <div className='huge-text max-lg:text-center'>
                 {content!.homepage.landingSectionTitle}
               </div>
-              <div className='text-body font-semibold drop-shadow-md max-lg:text-center'>
+              <div className='body-text max-lg:text-center'>
                 {content!.homepage.landingSectionText}
               </div>
               <div className='w-fit mx-auto'>

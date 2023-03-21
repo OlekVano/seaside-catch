@@ -28,7 +28,7 @@ function App() {
           content: content
         }}>
           <LandingSection />
-          <div className='bg-bg-primary grid place-items-center relative'>
+          <div className='bg-bg-primary grid place-items-center relative max-w-full'>
             <div className='absolute h-full w-full top-0 left-0'>
               <Bubbles />
             </div>

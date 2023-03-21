@@ -17,11 +17,11 @@ module.exports = {
       'text-tertiary': '#808080'
     },
     fontSize: {
-      'small': '20px',
-      'subheading': '25px',
-      'body': '32px',
-      'heading': '35px',
-      'huge': '60px'
+      'small': '20px', 'small-medium-screen': '19px',
+      'subheading': '25px', 'subheading-medium-screen': '22px',
+      'body': '32px', 'body-medium-screen': '25px',
+      'heading': '35px', 'heading-medium-screen': '30px',
+      'huge': '60px', 'huge-medium-screen': '45px'
     },
     fontWeight: {
       semibold: '600',
