@@ -10,8 +10,8 @@ export default function MenuSection() {
         {content!.menu.title}
       </div>
       <div className='flex justify-center mt-32 flex-wrap w-full gap-y-14 gap-x-[80px]'>
-        <div className='w-[600px] stained-glass rounded-3xl flex p-5 gap-5 cursor-pointer transition hover:scale-110'>
-          <div className='w-1/3 h-full'>
+        <div className='w-[600px] stained-glass rounded-3xl flex p-5 gap-5 cursor-pointer max-md:flex-col max-md:w-full max-md:hover:scale-100 max-md:cursor-default transition hover:scale-110'>
+          <div className='w-1/3 h-full max-md:w-full max-md:h-auto max-md:grid max-md:place-items-center'>
             <img src={content!.menu.card1Image} />
           </div>
           <div className='flex-1 flex flex-col gap-5'>
@@ -26,8 +26,8 @@ export default function MenuSection() {
             </div>
           </div>
         </div>
-        <div className='w-[600px] stained-glass rounded-3xl flex p-5 gap-5 cursor-pointer transition hover:scale-110'>
-          <div className='w-1/3 h-full'>
+        <div className='w-[600px] stained-glass rounded-3xl flex p-5 gap-5 cursor-pointer max-md:flex-col max-md:w-full max-md:hover:scale-100 max-md:cursor-default transition hover:scale-110'>
+          <div className='w-1/3 h-full max-md:w-full max-md:h-auto max-md:grid max-md:place-items-center'>
             <img src={content!.menu.card1Image} />
           </div>
           <div className='flex-1 flex flex-col gap-5'>
