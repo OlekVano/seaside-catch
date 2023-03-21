@@ -28,7 +28,12 @@ module.exports = {
       bold: '700',
       black: '900'
     },
-    extend: {},
+    extend: {
+      screens: {
+        'xs': '560px',
+        '2xs': '480px'
+      }
+    },
   },
   plugins: [],
 }

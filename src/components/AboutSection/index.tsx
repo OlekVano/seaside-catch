@@ -10,7 +10,7 @@ export default function AboutSection() {
       <div className='huge-text text-center'>
         {content!.homepage.aboutSectionTitle}
       </div>
-      <div className='px-10 py-20 stained-glass rounded-3xl flex gap-16 mt-32 items-center max-xl:flex-col-reverse'>
+      <div className='px-10 py-20 max-xs:px-5 stained-glass rounded-3xl flex gap-16 mt-32 items-center max-xl:flex-col-reverse'>
         <div className='body-text w-1/2 max-xl:w-full p-4 text-center'>
           {content!.homepage.aboutSectionText}
         </div>

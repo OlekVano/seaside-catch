@@ -11,7 +11,7 @@ export default function EventsSection() {
         {content!.homepage.eventsSectionTitle}
       </div>
       <div className='flex justify-center mt-32 flex-wrap w-full gap-y-14 gap-x-[80px]'>
-        <div className='w-[600px] stained-glass rounded-3xl flex overflow-x-hidden cursor-pointer max-md:flex-col max-md:w-full max-md:hover:scale-100 max-md:cursor-default transition hover:scale-110'>
+        <div className='w-[600px] stained-glass rounded-3xl flex overflow-x-hidden cursor-pointer max-md:flex-col max-md:w-full max-md:hover:scale-100 max-md:cursor-auto transition hover:scale-110'>
           <div className='w-5/12 h-full max-md:w-full max-md:h-auto'>
             <img className='object-cover w-full h-full' src={content!.homepage.eventsSectionCard1Image} />
           </div>
@@ -24,7 +24,7 @@ export default function EventsSection() {
             </div>
           </div>
         </div>
-        <div className='w-[600px] stained-glass rounded-3xl flex overflow-x-hidden cursor-pointer max-md:flex-col max-md:w-full max-md:hover:scale-100 max-md:cursor-default transition hover:scale-110'>
+        <div className='w-[600px] stained-glass rounded-3xl flex overflow-x-hidden cursor-pointer max-md:flex-col max-md:w-full max-md:hover:scale-100 max-md:cursor-auto transition hover:scale-110'>
           <div className='w-5/12 h-full max-md:w-full max-md:h-auto'>
             <img className='object-cover w-full h-full' src={content!.homepage.eventsSectionCard2Image} />
           </div>

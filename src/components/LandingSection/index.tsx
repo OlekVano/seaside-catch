@@ -12,7 +12,7 @@ export default function LandingSection() {
       <Birds />
       <div className='overflow-x-hidden h-full w-full grid place-items-center bg-gradient-to-b from-bg-quaternary to-bg-complementary flex-1'>
         <div className='h-full z-10 max-w-7xl overflow-x-hidden'>
-          <div className='h-full w-full flex p-8'>
+          <div className='h-full w-full flex p-8 max-xs:p-5'>
             <div className='flex-1 flex flex-col justify-center gap-10'>
               <div className='huge-text max-lg:text-center'>
                 {content!.homepage.landingSectionTitle}
