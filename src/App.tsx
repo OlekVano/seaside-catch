@@ -13,6 +13,7 @@ import ChooseUsSection from './components/ChooseUsSection'
 import NewsletterSection from './components/NewsletterSection'
 import Footer from './components/Footer'
 import Bubbles from './components/Bubbles'
+import Header from './components/Header'
 
 function App() {
   const [content, setContent] = useState<Content>()
@@ -27,6 +28,7 @@ function App() {
         <ContentContext.Provider value={{
           content: content
         }}>
+          <Header />
           <LandingSection />
           <div className='bg-bg-primary grid place-items-center relative max-w-full'>
             <div className='absolute h-full w-full top-0 left-0'>
