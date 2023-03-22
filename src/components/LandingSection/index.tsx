@@ -16,7 +16,7 @@ export default function LandingSection({ openModal }: Props) {
       <Birds />
       <div className='overflow-x-hidden h-full w-full grid place-items-center bg-gradient-to-b from-bg-quaternary to-bg-complementary flex-1'>
         <div className='h-full z-10 max-w-7xl overflow-x-hidden'>
-          <div className='h-full w-full flex p-8 max-xs:p-5 py-32'>
+          <div className='h-full w-full flex px-8 max-xs:px-5 py-32'>
             <div className='flex-1 flex flex-col justify-center gap-10'>
               <div className='huge-text max-lg:text-center'>
                 {content!.homepage.landingSectionTitle}
