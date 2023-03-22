@@ -18,7 +18,7 @@ export default function LandingSection({ openModal }: Props) {
         <div className='h-full z-10 max-w-7xl overflow-x-hidden'>
           <div className='h-full w-full flex px-8 max-xs:px-5 py-32'>
             <div className='flex-1 flex flex-col justify-center gap-10'>
-              <div className='huge-text max-lg:text-center'>
+              <div className='huge-text max-lg:text-center pl-0'>
                 {content!.homepage.landingSectionTitle}
               </div>
               <div className='body-text max-lg:text-center'>
