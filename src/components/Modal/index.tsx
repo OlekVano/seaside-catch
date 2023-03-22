@@ -16,12 +16,14 @@ export default function Modal({ children, onExit=function(){} }: PropsWithChildr
     modalRoot?.appendChild(elRef.current as Node)
     // Disable scrolling while modal is visible
     document.body.style.overflow = 'hidden'
+    document.body.parentElement!.style.overflow = 'hidden'
 
 
 
     return function removeModal() {
       modalRoot?.removeChild(elRef.current as Node)
       document.body.style.overflow = ''
+      document.body.parentElement!.style.overflow = ''
     }
   }, [])
 
