@@ -4,7 +4,11 @@ import Birds from '../Birds'
 import Button from '../Button'
 import Waves from '../Waves'
 
-export default function LandingSection() {
+interface Props {
+  openModal: Function
+}
+
+export default function LandingSection({ openModal }: Props) {
   const { content } = useContext(ContentContext)
 
   return (
@@ -21,7 +25,7 @@ export default function LandingSection() {
                 {content!.homepage.landingSectionText}
               </div>
               <div className='w-fit mx-auto'>
-                <Button text='Book A Table' />
+                <Button text='Book A Table' onClick={openModal} />
               </div>
             </div>
             <div className='w-1/2 grid place-items-center max-lg:hidden'>

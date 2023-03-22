@@ -14,10 +14,15 @@ import NewsletterSection from './components/NewsletterSection'
 import Footer from './components/Footer'
 import Bubbles from './components/Bubbles'
 import Header from './components/Header'
+import Modal from './components/Modal'
+import ReservationMenu from './components/ReservationMenu'
+import { sleep } from './utils'
 
 function App() {
   const [content, setContent] = useState<Content>()
   const { getContent } = useContentful()
+  const [renderModal, setRenderModal] = useState(false)
+  const [modalVisible, setModalVisible] = useState(false)
 
   useEffect(fetchContent, [])
 
@@ -28,8 +33,11 @@ function App() {
         <ContentContext.Provider value={{
           content: content
         }}>
-          <Header />
-          <LandingSection />
+          {
+            renderModal ? <Modal onExit={closeModal}><ReservationMenu closeModal={closeModal} visible={modalVisible} setVisible={setModalVisible} /></Modal> : null
+          }
+          <Header openModal={openModal} />
+          <LandingSection openModal={openModal} />
           <div className='bg-bg-primary grid place-items-center relative max-w-full'>
             <div className='absolute h-full w-full top-0 left-0'>
               <Bubbles />
@@ -54,8 +62,18 @@ function App() {
 
   function fetchContent() {
     getContent().then(function afterFetchingContent(res) {
-      console.log(res)
       setContent(res)
+    })
+  }
+
+  function openModal() {
+    setRenderModal(true)
+  }
+
+  function closeModal() {
+    setModalVisible(false)
+    sleep(300).then(function afterSleep() {
+      setRenderModal(false)
     })
   }
 }
