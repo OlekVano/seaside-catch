@@ -30,7 +30,7 @@ export default function Header({ openModal }: Props) {
           <ButtonSmall onClick={openModal} src={table} />
         </div>
       </div>
-      <div className={`absolute top-0 -z-10 w-full h-full bg-text-secondary transition duration-500 ${scrollPos && scrollPos > 200 ? 'translate-y-0' : '-translate-y-full'}`}></div>
+      <div className={`absolute top-0 -z-10 w-full h-full bg-text-secondary transition duration-500 ${scrollPos && scrollPos > 100 ? 'translate-y-0' : '-translate-y-full'}`}></div>
     </div>
   )
 
