@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react'
 import { sleep } from '../../utils'
 import Button from '../Button'
+import ButtonSmall from '../ButtonSmall'
+import cancel from '../../assets/cancel.png'
 
 interface Props {
   closeModal: Function,
@@ -16,10 +18,13 @@ export default function ReservationMenu({ closeModal, visible, setVisible }: Pro
   }, [])
 
   return (
-    <div className={`max-w-[800px] rounded-3xl bg-bg-secondary px-10 py-20 max-md: w-full max-md:h-full max-h-full overflow-y-auto max-md:rounded-none relative transition duration-300 ${visible ? 'translate-y-0' : '-translate-y-[100vh] opacity-0'}`}>
+    <div className={`max-w-[800px] rounded-3xl bg-bg-secondary px-10 pt-10 pb-16 max-md: w-full max-md:h-full max-h-full overflow-y-auto max-md:rounded-none relative transition duration-300 ${visible ? 'translate-y-0' : '-translate-y-[100vh] opacity-0'}`}>
       {
         submitted ?
         <div className={`h-full w-full flex flex-col text-text-primary transition overflow-y-hidden duration-500 ${submitted ? 'opacity-100 z-50 translate-y-0' : '-z-50 opacity-0 -translate-y-4'}`}>
+          <div className='ml-auto pt-2 pr-2'>
+            <ButtonSmall onClick={closeModal} src={cancel} />
+          </div>
           <div className='text-center huge-text'>Thank you!</div>
           <div className='text-center heading-text'>We will reach out to you soon!</div>
           <div className='mt-36 max-md:mt-auto grid place-items-center'>
@@ -27,7 +32,10 @@ export default function ReservationMenu({ closeModal, visible, setVisible }: Pro
           </div>
         </div>
         :
-        <div className='text-text-primary w-full'>
+        <div className='text-text-primary w-full flex flex-col'>
+          <div className='ml-auto pt-2 pr-2'>
+            <ButtonSmall onClick={closeModal} src={cancel} />
+          </div>
           <div className='text-center heading-text mb-10'>Reservation</div>
           <div className='flex flex-col gap-5'>
             <div className='flex flex-col'>
