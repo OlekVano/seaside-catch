@@ -19,18 +19,18 @@ export default function WelcomeSection() {
         </div>
         <div className='flex-1 flex flex-col gap-8 max-xs:gap-4'>
           <div className='flex-1 flex gap-8 max-xs:gap-4'>
-            <div className='grow-[3] basis-0'>
+            <div className='grow-[3] basis-0 max-h-60 max-xl:max-h-[35vw]'>
               <img className='object-cover h-full rounded-2xl' src={content!.homepage.welcomeSectionImage1} />
             </div>
-            <div className='grow-[4] basis-0'>
+            <div className='grow-[4] basis-0 max-h-60 max-xl:max-h-[35vw]'>
               <img className='object-cover h-full rounded-2xl' src={content!.homepage.welcomeSectionImage2}/>
             </div>
           </div>
           <div className='flex-1 flex gap-8 max-xs:gap-4'>
-            <div className='grow-[4] basis-0'>
+            <div className='grow-[4] basis-0 max-h-60 max-xl:max-h-[35vw]'>
               <img className='object-cover h-full rounded-2xl' src={content!.homepage.welcomeSectionImage3} />
             </div>
-            <div className='grow-[3] basis-0'>
+            <div className='grow-[3] basis-0 max-h-60 max-xl:max-h-[35vw]'>
               <img className='object-cover h-full rounded-2xl' src={content!.homepage.welcomeSectionImage4}/>
             </div>
           </div>
