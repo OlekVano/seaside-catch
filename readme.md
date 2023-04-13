@@ -1,6 +1,7 @@
 # Seaside Catch
 
 Welcome to the repository for a restaurant landing page.
+Live Demo - https://seaside-catch.netlify.app
 
 ## Features
 
