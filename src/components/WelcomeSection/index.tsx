@@ -2,6 +2,11 @@ import React, { useContext } from 'react'
 import { ContentContext } from '../../content-context'
 import Button from '../Button'
 
+import place from '../../assets/place.jpg'
+import place2 from '../../assets/place2.jpg'
+import dish from '../../assets/dish.jpg'
+import dish2 from '../../assets/dish2.jpg'
+
 export default function WelcomeSection() {
   const { content } = useContext(ContentContext)
 
@@ -20,18 +25,18 @@ export default function WelcomeSection() {
         <div className='flex-1 flex flex-col gap-8 max-xs:gap-4'>
           <div className='flex-1 flex gap-8 max-xs:gap-4'>
             <div className='grow-[3] basis-0 max-h-60 max-xl:max-h-[35vw]'>
-              <img className='object-cover h-full rounded-2xl' src={content!.homepage.welcomeSectionImage1} />
+              <img className='w-full h-full rounded-2xl object-cover' src={place} />
             </div>
             <div className='grow-[4] basis-0 max-h-60 max-xl:max-h-[35vw]'>
-              <img className='object-cover h-full rounded-2xl' src={content!.homepage.welcomeSectionImage2}/>
+              <img className='w-full h-full rounded-2xl object-cover' src={dish}/>
             </div>
           </div>
           <div className='flex-1 flex gap-8 max-xs:gap-4'>
             <div className='grow-[4] basis-0 max-h-60 max-xl:max-h-[35vw]'>
-              <img className='object-cover h-full rounded-2xl' src={content!.homepage.welcomeSectionImage3} />
+              <img className='w-full h-full rounded-2xl object-cover' src={dish2} />
             </div>
             <div className='grow-[3] basis-0 max-h-60 max-xl:max-h-[35vw]'>
-              <img className='object-cover h-full rounded-2xl' src={content!.homepage.welcomeSectionImage4}/>
+              <img className='w-full h-full rounded-2xl object-cover' src={place2}/>
             </div>
           </div>
         </div>
