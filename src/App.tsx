@@ -31,9 +31,6 @@ function App() {
         "welcomeSectionImage2": "https://images.ctfassets.net/h1s92ip70nez/1GTifmhGwSR7EgrBh4BPxv/ff1332860ab1b68519f0debe1c387111/paella-398968_1920.jpg",
         "welcomeSectionImage3": "https://images.ctfassets.net/h1s92ip70nez/2vAU8mxkfgBmf6lR70nQgo/d7fbd71f83ae7040032b281e921e62b9/shellfish-3148452_1920.jpg",
         "welcomeSectionImage4": "https://images.ctfassets.net/h1s92ip70nez/44KYGhNB6WjcNpoUXbj6SX/433179ebff503cd168ed9459c8d1c2f7/salmon-518032_1920.jpg",
-        "aboutSectionTitle": "about us",
-        "aboutSectionText": "Our menu features an extensive selection of fresh seafood dishes that are sure to satisfy your cravings. From succulent salmon to mouth-watering shrimp and lobster, we have something for every seafood lover. We also offer a variety of appetizers and refreshing drinks to complement your meal.",
-        "aboutSectionImage": "https://images.ctfassets.net/h1s92ip70nez/6mgqwW5SOHUnOGljnDxSSm/31e27c682470c3f4d443a07983618355/fishermen-2983615_1920.jpg",
         "findUsSectionTitle": "How can you find us",
         "findUsSectionCard1Image": "https://images.ctfassets.net/h1s92ip70nez/69VSLlvVkexLRKAjgQprV8/4fe61e78e8eb50d8d57acf0bffd8fdc8/clock.png",
         "findUsSectionCard1Title": "8 AM - 10 PM",
@@ -44,14 +41,6 @@ function App() {
         "findUsSectionCard3Image": "https://images.ctfassets.net/h1s92ip70nez/27RRqzlmkKRMhY7cFGud9x/3210b15d718b358a56cca2d202ea73b2/phone-icon.svg",
         "findUsSectionCard3Title": "+960 XXX XXX",
         "findUsSectionCard3Text": "Call Now",
-        "eventsSectionTitle": "BOoK FOR EVENTS",
-        "eventsSectionCard1Image": "https://images.ctfassets.net/h1s92ip70nez/70F225nta0PRdSKzH94zAh/b8e1e6ff9503e02312ed44d0de189fd7/beach-1854076_1920.jpg",
-        "eventsSectionCard1Title": "Weddings",
-        "eventsSectionCard1Text": "For a truly memorable wedding experience, Seaside Catch provides an intimate and elegant setting with stunning coastal views. Our dedicated team will work with you to create the perfect day, tailored to your specific requirements.",
-        "eventsSectionCard2Image": "https://images.ctfassets.net/h1s92ip70nez/5AbTJAO5QmP6i302tgdlVj/835012c79c5e4ac8bf3b18b5d5268bab/happy-birthday-1571743_1920.jpg",
-        "eventsSectionCard2Title": "Other Events",
-        "eventsSectionCard2Text": "Seaside Catch is the ideal location for any events, offering a range of private party options to suit your needs. It also provides a relaxing atmosphere that will help you unwind and recharge from the hustle and bustle of everyday life.",
-        "eventsSectionText": "Book your private event or corporate function at Seaside Catch to enjoy a truly one-of-a-kind experience. Our exceptional venue and personalized service will make your event unforgettable.",
         "chooseUsSectionTitle": "WHY CHOOSE US",
         "chooseUsSectionText": "When selecting a restaurant, several factors come into play, such as the quality of service, the food's taste and presentation, the ambiance, and the value for money. Seaside Catch, located in Costa da Caparica, is an exceptional fine-dining establishment that checks all of these boxes.",
         "chooseUsSectionCard1Image": "https://images.ctfassets.net/h1s92ip70nez/1iJxQYK8JHNEOIera7utoh/5df1ba47202b3924d687a1e27ac47dc5/whyus-icon1.svg",
@@ -62,21 +51,7 @@ function App() {
         "chooseUsSectionCard3Title": "Skilled Shef",
         "chooseUsSectionCard4Image": "https://images.ctfassets.net/h1s92ip70nez/31jOVQdxJKFXzydmqAgqFh/b864c320a8915711d2088d690fb3a597/whyus-icon4.svg",
         "chooseUsSectionCard4Title": "Best Service",
-        "newsletterSectionTitle": "BE THE FIRST ONE TO KNOW",
-        "newsletterSectionSubtitle": "Join Our Newsletter",
-        "newsletterSectionText": "Stay up to date with the latest news and exclusive offers from Seaside Catch by subscribing to our newsletter. Don't miss out on exciting updates and special promotions!",
         "logo": "https://images.ctfassets.net/h1s92ip70nez/65QBaEH80y9ecxTD4nkKyu/3570cf31c120eef2534d28e6b9deff66/logo.png"
-    },
-    "menu": {
-        "title": "explore our menu",
-        "card1Image": "https://images.ctfassets.net/h1s92ip70nez/3HL7feKThiprUXpYxDiRWA/5ff497fae6b54f9871950b491fd81238/food-menu-1.png",
-        "card1Title": "Seafood Mix",
-        "card1Text": "Our seafood mix offers a delicious combination of shrimp, scallops, mussels, clams, crab meat, lobster, and fish, perfect for any seafood lover.",
-        "card1Price": "€ 29,99",
-        "card2Image": "https://images.ctfassets.net/h1s92ip70nez/3HL7feKThiprUXpYxDiRWA/5ff497fae6b54f9871950b491fd81238/food-menu-1.png",
-        "card2Title": "Seafood Mix",
-        "card2Text": "Our seafood mix offers a delicious combination of shrimp, scallops, mussels, clams, crab meat, lobster, and fish, perfect for any seafood lover.",
-        "card2Price": "€ 29,99"
     },
     "footer": {
         "text": "Fresh catch, seaside vibes, and unforgettable flavors - come savor the taste of the ocean at our beachside eatery.",
@@ -109,12 +84,8 @@ function App() {
             </div>
             <div className='max-w-7xl overflow-x-hidden max-xl:w-full flex flex-col py-40 gap-40 z-10'>
               <WelcomeSection />
-              <AboutSection />
               <FindUsSection />
-              <MenuSection />
-              <EventsSection />
               <ChooseUsSection />
-              <NewsletterSection />
             </div>
           </div>
           <Footer />
