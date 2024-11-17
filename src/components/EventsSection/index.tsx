@@ -42,7 +42,7 @@ export default function EventsSection() {
         {content!.homepage.eventsSectionText}
       </div>
       <div className='mt-10'>
-        <Button text='Contact Us' />
+        <Button text='Contactos' />
       </div>
     </div>
   )

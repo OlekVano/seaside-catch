@@ -19,7 +19,7 @@ export default function Footer() {
           </div>
         </div>
         <div className='flex flex-col items-center gap-2 max-w-[33.333%] max-md:max-w-full'>
-          <div className='text-subheading font-bold pb-4 drop-shadow-md'>Contact Us</div>
+          <div className='text-subheading font-bold pb-4 drop-shadow-md'>Contactos</div>
           <div className='drop-shadow-md text-small font-semibold'>
             {content!.footer.phoneNumber}
           </div>
@@ -28,7 +28,7 @@ export default function Footer() {
           </div>
         </div>
         <div className='flex flex-col items-center gap-2 max-w-[33.333%] max-md:max-w-full'>
-          <div className='text-subheading font-bold pb-4 drop-shadow-md'>Links</div>
+          <div className='text-subheading font-bold pb-4 drop-shadow-md'>Redes Sociais</div>
           <a href={content!.footer.facebookLink} className='flex items-center w-full'>
             <img className='w-9 h-9 p-2 brightness-0 invert' src={facebook} />
             <div className='drop-shadow-md text-small font-semibold'>Facebook</div>

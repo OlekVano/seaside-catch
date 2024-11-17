@@ -15,7 +15,7 @@ export default function WelcomeSection() {
           <div className='body-text text-center'>
             {content!.homepage.welcomeSectionText}
           </div>
-          <Button text='Explore Menu' />
+          <Button text='Explorar Menu' />
         </div>
         <div className='flex-1 flex flex-col gap-8 max-xs:gap-4'>
           <div className='flex-1 flex gap-8 max-xs:gap-4'>
