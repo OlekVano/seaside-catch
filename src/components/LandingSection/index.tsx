@@ -25,7 +25,7 @@ export default function LandingSection({ openModal }: Props) {
                 {content!.homepage.landingSectionText}
               </div>
               <div className='w-fit mx-auto'>
-                <Button text='Book A Table' onClick={openModal} />
+                <Button text='Reservar Mesa' onClick={openModal} />
               </div>
             </div>
             <div className='w-1/2 grid place-items-center max-lg:hidden'>

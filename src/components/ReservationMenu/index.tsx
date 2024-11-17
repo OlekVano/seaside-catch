@@ -36,29 +36,29 @@ export default function ReservationMenu({ closeModal, visible, setVisible }: Pro
           <div className='ml-auto pt-2 pr-2'>
             <ButtonSmall onClick={closeModal} src={cancel} />
           </div>
-          <div className='text-center heading-text mb-10'>Reservation</div>
+          <div className='text-center heading-text mb-10'>Fazer reserva</div>
           <div className='flex flex-col gap-5'>
             <div className='flex flex-col'>
-              <label className='subheading-text text-center' htmlFor='name-input'>Full Name</label>
+              <label className='subheading-text text-center' htmlFor='name-input'>Nome</label>
               <input className='body-text py-3 px-5 rounded-xl text-text-secondary outline-none border-none' id='name-input' required/>
             </div>
             <div className='flex flex-col'>
-              <label className='subheading-text text-center' htmlFor='phone-input'>Phone Number</label>
+              <label className='subheading-text text-center' htmlFor='phone-input'>Telemóvel</label>
               <input type='tel' className='body-text py-3 px-5 rounded-xl text-text-secondary outline-none border-none' id='phone-input' required/>
             </div>
             <div className='flex gap-10 max-md:flex-col'>
               <div className='flex flex-col flex-1'>
-                <label className='subheading-text text-center' htmlFor='date-input'>Date</label>
+                <label className='subheading-text text-center' htmlFor='date-input'>Data</label>
                 <input type='date' className='body-text w-full py-3 px-5 rounded-xl text-text-secondary outline-none border-none' id='date-input' required/>
               </div>
               <div className='flex flex-col flex-1'>
-                <label className='subheading-text text-center' htmlFor='time-input'>Time</label>
+                <label className='subheading-text text-center' htmlFor='time-input'>Hora</label>
                 <input type='time' className='body-text w-full py-3 px-5 rounded-xl text-text-secondary outline-none border-none' id='time-input' required/>
               </div>
             </div>
             <div className='flex gap-10 max-md:flex-col'>
               <div className='flex flex-col flex-1'>
-                <label className='subheading-text text-center' htmlFor='guests-input'>Guests</label>
+                <label className='subheading-text text-center' htmlFor='guests-input'>Pessoas</label>
                 <select className='body-text w-full py-3 px-5 rounded-xl text-text-secondary outline-none border-none' id='guests-input' required>
                   <option>1-2</option>
                   <option>3-4</option>
@@ -67,17 +67,9 @@ export default function ReservationMenu({ closeModal, visible, setVisible }: Pro
                   <option>12+</option>
                 </select>
               </div>
-              <div className='flex flex-col flex-1'>
-                <label className='subheading-text text-center' htmlFor='placement-input'>Placement</label>
-                <select className='body-text w-full py-3 px-5 rounded-xl text-text-secondary outline-none border-none' id='placement-input' required>
-                  <option>Inside</option>
-                  <option>Balcony</option>
-                  <option>Beach</option>
-                </select>
-              </div>
             </div>
             <div className='grid place-items-center mt-10'>
-              <Button text='Submit' onClick={onSubmit} />
+              <Button text='Finalizar reserva' onClick={onSubmit} />
             </div>
           </div>
         </div>

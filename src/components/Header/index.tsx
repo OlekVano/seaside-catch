@@ -24,7 +24,7 @@ export default function Header({ openModal }: Props) {
       <div className='max-w-7xl mx-auto flex justify-between items-center py-3 px-10 max-md:py-2 max-md:px-5'>
         <Logo />
         <div className='max-xs:hidden'>
-          <Button text='Reservation' onClick={openModal} />
+          <Button text='Fazer Reserva' onClick={openModal} />
         </div>
         <div className='hidden max-xs:block'>
           <ButtonSmall onClick={openModal} src={table} />

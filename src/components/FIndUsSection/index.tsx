@@ -30,13 +30,10 @@ export default function FindUsSection() {
           </div>
         </a>
         </a> */}
-        <a href='https://maps.google.com/?q=Costa+da+Caparica' target='_blank' className='flex flex-col items-center py-10 stained-glass w-[30%] max-md:w-96 max-w-full rounded-3xl cursor-pointer max-xs:hover:scale-100 transition hover:scale-110'>
+        <a href='https://maps.app.goo.gl/ema1oyZ7KAXA4Epq7' target='_blank' className='flex flex-col items-center py-10 stained-glass w-[30%] max-md:w-96 max-w-full rounded-3xl cursor-pointer max-xs:hover:scale-100 transition hover:scale-110'>
           <img className='w-1/3 brightness-0 invert' src={content!.homepage.findUsSectionCard2Image} />
-          <div className='subheading-text mt-6'>
+          <div className='small-text text-center px-4 mt-6'>
             {content!.homepage.findUsSectionCard2Title}
-          </div>
-          <div className='small-text'>
-            {content!.homepage.findUsSectionCard2Text}
           </div>
         </a>
         <a href={`tel:${content!.footer.phoneNumber}`} className='stained-glass w-[30%] max-md:w-96 max-w-full flex flex-col items-center py-10 rounded-3xl cursor-pointer max-xs:hover:scale-100 transition hover:scale-110'>
